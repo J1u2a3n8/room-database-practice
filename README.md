@@ -1,6 +1,6 @@
 # room-database-practice
 
-> Room Database en Android/Kotlin
+> Room Database in Android/Kotlin
 
 ![Language](https://img.shields.io/github/languages/top/J1u2a3n8/room-database-practice)
 ![License](https://img.shields.io/github/license/J1u2a3n8/room-database-practice)
@@ -8,65 +8,65 @@
 ![Stars](https://img.shields.io/github/stars/J1u2a3n8/room-database-practice?style=social)
 ![Issues](https://img.shields.io/github/issues/J1u2a3n8/room-database-practice)
 
-## 📋 Descripción
+## Description
 
-Practica de desarrollo Android nativo con Kotlin y arquitectura moderna. Migrado, historial reescrito, documentado para portfolio.
+Modern Android app demonstrating Room persistence library with Kotlin Coroutines and Flow. Implements Repository pattern, DAOs, entity relationships, migrations, and reactive UI with LiveData/Flow.
 
-## 🏗️ Arquitectura
+## Architecture
 
-MVVM + Repository Pattern + Room Database
+MVVM + Repository: ViewModel → Repository → Room DAO → SQLite Database
 
-## 🚀 Inicio Rápido
+## Quick Start
 
-### Prerrequisitos
+### Prerequisites
 
 Android Studio Ladybug+, JDK 17, Android SDK 34
 
-### Instalación
+### Installation
 
 ```bash
-# Clonar
+# Clone
 git clone https://github.com/J1u2a3n8/room-database-practice.git
 cd room-database-practice
 
 ./gradlew build
 ```
 
-### Uso
+### Usage
 
 ```bash
 ./gradlew installDebug
 ```
 
-## 🧪 Tests
+## Testing
 
 ```bash
 ./gradlew test
 ```
 
-## 📁 Estructura del Proyecto
+## Project Structure
 
 ```
 room-database-practice/
-├── src/              # Código fuente principal
-├── tests/            # Tests unitarios/integración
-├── docs/             # Documentación
-├── .github/          # Workflows CI/CD
+├── src/              # Main source code
+├── tests/            # Unit/integration tests
+├── docs/             # Documentation
+├── .github/          # CI/CD workflows
 └── README.md
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-**Kotlin**, Android SDK, Room, Retrofit, Coroutines, Flow
+Kotlin, Android SDK, Room, Coroutines, Flow, ViewBinding, Hilt/Dagger, JUnit, Espresso
 
-## 📄 Licencia
+## License
 
-Este proyecto está bajo licencia **MIT** - ver [LICENSE](LICENSE) para detalles.
+This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for details.
 
-## 👤 Autor
+## Author
 
 **J1u2a3n8** - [GitHub](https://github.com/J1u2a3n8) - [LinkedIn](https://linkedin.com/in/juanluiscanedo)
 
 ---
 
-⭐ Si este proyecto te fue útil, ¡dale una estrella!
+⭐ If you found this project useful, give it a star!
